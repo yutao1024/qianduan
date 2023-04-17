@@ -18,7 +18,7 @@ proxyObj['/'] = {
 module.exports = {
     devServer:{  //配置开发环境
         host: 'localhost', //端口号
-        port: 8080,
+        port: 8088,
         proxy: proxyObj  //代理对象
     }
 }
