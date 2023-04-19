@@ -7,7 +7,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import axios from 'axios';
 
 Vue.prototype.axios = axios;
-// axios.defaults.baseURL = "/api"
+axios.defaults.baseURL = "/api"
 axios.defaults.withCredentials = true
 Vue.use(axios);
 
